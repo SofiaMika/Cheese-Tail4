@@ -1,0 +1,148 @@
+.header {
+  background-color: var(--color-primary);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  justify-content: space-between;
+}
+
+.header__burger {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__burger:focus-visible,
+.header-drawer__close:focus-visible,
+.header-drawer__link:focus-visible {
+  outline: 3px solid var(--color-background);
+  outline-offset: 4px;
+}
+
+.is-drawer-open {
+  overflow: hidden;
+}
+
+.header-drawer {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  display: block;
+  animation: drawer-fade-in 200ms ease-out;
+}
+
+.header-drawer[hidden] {
+  display: none;
+}
+
+.header-drawer__backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: rgb(0 0 0 / 50%);
+  cursor: pointer;
+}
+
+.header-drawer__panel {
+  position: relative;
+  z-index: 1;
+  width: min(470px, 100%);
+  margin-left: auto;
+  min-height: 100dvh;
+  overflow-y: auto;
+  background: var(--color-background);
+  animation: drawer-slide-in 250ms ease-out;
+}
+
+.header-drawer__close {
+  position: absolute;
+  top: 19px;
+  right: 17px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  color: var(--color-primary);
+  background: transparent;
+  cursor: pointer;
+}
+
+.header-drawer__close svg {
+  display: block;
+}
+
+.header-drawer__close path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: square;
+}
+
+.header-drawer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 147px 40px 48px;
+}
+
+.header-drawer__link {
+  color: var(--color-primary);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.54;
+  text-decoration: none;
+}
+
+.header-drawer__link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+}
+
+.header-drawer__close:focus-visible,
+.header-drawer__link:focus-visible {
+  outline-color: var(--color-primary);
+}
+
+@keyframes drawer-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes drawer-slide-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@media screen and (max-width: 576px) {
+  .header_logo svg {
+    max-width: 130px;
+  }
+
+  .header-drawer__backdrop {
+    display: none;
+  }
+
+  .header-drawer__nav {
+    padding: 120px 24px 40px;
+  }
+
+  .header-drawer__link {
+    font-size: clamp(38px, 13vw, 50px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-drawer,
+  .header-drawer__panel {
+    animation: none;
+  }
+}

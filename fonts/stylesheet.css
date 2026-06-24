@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-DmBd.woff2') format('woff2'),
+        url('TTChocolatesEdu-DmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-XBdIt.woff2') format('woff2'),
+        url('TTChocolatesEdu-XBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-Bd.woff2') format('woff2'),
+        url('TTChocolatesEdu-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-BdIt.woff2') format('woff2'),
+        url('TTChocolatesEdu-BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-XBd.woff2') format('woff2'),
+        url('TTChocolatesEdu-XBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-DmBdIt.woff2') format('woff2'),
+        url('TTChocolatesEdu-DmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-XLt.woff2') format('woff2'),
+        url('TTChocolatesEdu-XLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-Lt.woff2') format('woff2'),
+        url('TTChocolatesEdu-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-Md.woff2') format('woff2'),
+        url('TTChocolatesEdu-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-XLtIt.woff2') format('woff2'),
+        url('TTChocolatesEdu-XLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-LtIt.woff2') format('woff2'),
+        url('TTChocolatesEdu-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-MdIt.woff2') format('woff2'),
+        url('TTChocolatesEdu-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-It.woff2') format('woff2'),
+        url('TTChocolatesEdu-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Chocolates Edu';
+    src: url('TTChocolatesEdu-Rg.woff2') format('woff2'),
+        url('TTChocolatesEdu-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
